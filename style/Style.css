@@ -19,3 +19,11 @@ p {
     font-family: 'Castoro', serif;
     font-size: larger;
 }
+
+.nav{
+    background-color:#D9B08C ;
+}
+
+.nav-link {
+    color: #2C3531
+}

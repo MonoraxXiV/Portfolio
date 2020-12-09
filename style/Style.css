@@ -21,7 +21,8 @@ p {
     color: #ffffff;
     font-family: 'Castoro', serif;
     font-size: larger;
-    padding-left: 5px;
+    margin-left: 5px;
+    margin-right:20px;
 }
 
 .nav{

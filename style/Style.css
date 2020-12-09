@@ -1,29 +1,30 @@
 body {
     background-color: #116466;
     font-family: 'Castoro', serif;
+    width:100%
 }
 
 h1 {
     color: #D9B08C;
     font-family: 'Castoro', serif;
+    padding-left: 5px;
 
 }
 
 h2 {
     color: #D1E8E2;
     font-family: 'Castoro', serif;
+    padding-left: 5px;
 }
 
 p {
     color: #ffffff;
     font-family: 'Castoro', serif;
     font-size: larger;
+    padding-left: 5px;
 }
 
 .nav{
-    background-color:#D9B08C ;
+    padding-left: 5px;
 }
 
-.nav-link {
-    color: #2C3531
-}

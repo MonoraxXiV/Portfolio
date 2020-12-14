@@ -17,6 +17,18 @@ h2 {
     padding-left: 5px;
 }
 
+h3{
+    color: #D9B08C;
+    font-family: 'Castoro', serif;
+    padding-left: 5px;
+}
+
+.h4{
+    color: #D1E8E2;
+    font-family: 'Castoro', serif;
+    padding-left: 5px;
+}
+
 p {
     color: #ffffff;
     font-family: 'Castoro', serif;
@@ -28,4 +40,5 @@ p {
 .nav{
     padding-left: 5px;
 }
+
 

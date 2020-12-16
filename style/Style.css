@@ -1,7 +1,8 @@
+
 body {
     background-color: #116466;
     font-family: 'Castoro', serif;
-    width:100%
+
 }
 
 h1 {
@@ -25,9 +26,6 @@ p {
     margin-right:20px;
 }
 
-.nav{
-    padding-left: 5px;
-}
 
 h3{
     color: #D9B08C;
@@ -44,7 +42,6 @@ h4{
     padding:10px;
 }
 
-/* Dropdown Button */
 .dropbtn {
     background-color: #2C3531;
     color: white;
@@ -54,13 +51,13 @@ h4{
     margin-bottom: 15px;
 }
 
-/* The container <div> - needed to position the dropdown content */
+
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -70,7 +67,7 @@ h4{
     z-index: 1;
 }
 
-/* Links inside the dropdown */
+
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -78,11 +75,77 @@ h4{
     display: block;
 }
 
-/* Change color of dropdown links on hover */
+
 .dropdown-content a:hover {background-color: #ddd;}
 
-/* Show the dropdown menu on hover */
+
 .dropdown:hover .dropdown-content {display: block;}
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
+
 .dropdown:hover .dropbtn {background-color: #2C3531;}
+
+
+nav {
+    margin: 0px auto 0;
+    margin-bottom: 10px;
+    position: relative;
+    height: 50px;
+    background-color: #34495e;
+    border-radius: 8px;
+    font-size: 0;
+}
+nav a {
+    line-height: 50px;
+    height: 100%;
+    font-size: 15px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+nav .animation {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    z-index: 0;
+    transition: all .5s ease 0s;
+    border-radius: 8px;
+}
+a:nth-child(1) {
+    width: 100px;
+}
+a:nth-child(2) {
+    width: 110px;
+}
+a:nth-child(3) {
+    width: 100px;
+}
+a:nth-child(4) {
+    width: 160px;
+}
+
+nav .start-home, a:nth-child(1):hover~.animation {
+    width: 100px;
+    left: 0;
+    background-color: #41B3A3;
+}
+nav .start-about, a:nth-child(2):hover~.animation {
+    width: 110px;
+    left: 100px;
+    background-color: #C38D9E;
+}
+nav .start-contact, a:nth-child(3):hover~.animation {
+    width: 100px;
+    left: 210px;
+    background-color: #E8A87C;
+}
+nav .start-projects, a:nth-child(4):hover~.animation {
+    width: 160px;
+    left: 310px;
+    background-color: #E27D60;
+}
+

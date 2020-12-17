@@ -4,6 +4,8 @@ function myFunction() {
     document.getElementById("myDropdown1").classList.toggle("show");
     document.getElementById("myDropdown2").classList.toggle("show");
     document.getElementById("myDropdown3").classList.toggle("show");
+    document.getElementById("myDropdownColab").classList.toggle("show");
+    document.getElementById("myDropdownOther").classList.toggle("show");
 }
 
 // Close the dropdown menu if the user clicks outside of it

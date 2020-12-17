@@ -1,4 +1,11 @@
 
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
 body {
     background-color: #116466;
     font-family: 'Castoro', serif;
@@ -6,16 +13,19 @@ body {
 }
 
 h1 {
+    @apply text-2xl;
     color: #D9B08C;
-    font-family: 'Castoro', serif;
-    padding-left: 5px;
-
 }
-
 h2 {
+    @apply text-xl;
     color: #D1E8E2;
-    font-family: 'Castoro', serif;
-    padding-left: 5px;
+}
+h3 {
+    @apply text-lg;
+    color: #D9B08C;
+}
+a {
+    @apply text-blue-600 underline;
 }
 
 p {
@@ -26,10 +36,6 @@ p {
     margin-right:20px;
 }
 
-
-h3{
-    color: #D9B08C;
-}
 
 h4{
     color: #D1E8E2;

@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This project is a self study project for the course of Becode.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss style/Style.css -o build/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonoraxXiV/Portfolio.git"
+  },
+  "author": "MonoraxXiv",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MonoraxXiV/Portfolio/issues"
+  },
+  "homepage": "https://github.com/MonoraxXiV/Portfolio#readme",
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "postcss": "^8.2.1",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.0.2"
+  }
+}

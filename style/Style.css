@@ -6,11 +6,6 @@
 @tailwind utilities;
 
 
-body {
-    background-color: #116466;
-    font-family: 'Castoro', serif;
-
-}
 
 h1 {
     @apply text-2xl;

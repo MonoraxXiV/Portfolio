@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -8,11 +8,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
 
 
-    <link rel="stylesheet" type="text/css" href="style/Style.css">
+    <link rel="stylesheet" type="text/css" href="build/styles.css">
     <title>Homepage</title>
 
 </head>
-<body>
+<body class ="bg-blue-200 dark:bg-green-700 bg-opacity-75">
 <nav>
     <a href="#">Home</a>
     <a href="Pages/About.html">About</a>
@@ -22,8 +22,8 @@
     <div class="animation start-home"></div>
 </nav>
 
-
-<div class="Text">
+<button class=" h-8 px-4 m-2 text-sm bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-50" onclick="toggleDarkMode()">Toggle dark mode</button>
+<div class="Text bg-white dark:bg-black" >
     <h1>Welcome to my portfolio</h1>
     <p> Welcome to my portfolio, I am MonoraxXiV. This site is made to both show off a few skills as well as an
         introduction
@@ -36,6 +36,8 @@
 
 
 </div>
+
+
 <script type='text/javascript' src='JS/script.js'></script>
 
 </body>

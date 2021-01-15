@@ -19,7 +19,8 @@ module.exports = {
                     huneven: '#D9B08C',
                     heven: '#ff874a',
                     hlighteven: '#5c210c',
-                    hlightuneven: '#995822'
+                    hlightuneven: '#995822',
+                    footer: '#34495e',
 
                 },
                 teal: colors.teal,

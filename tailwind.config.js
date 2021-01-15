@@ -17,9 +17,9 @@ module.exports = {
                     white: '#ffffff',
                     black: '#000000',
                     huneven: '#D9B08C',
-                    heven: '#D1E8E2',
-                    hlighteven: '#c24914',
-                    hlightuneven: '#fc8621'
+                    heven: '#ff874a',
+                    hlighteven: '#5c210c',
+                    hlightuneven: '#995822'
 
                 },
                 teal: colors.teal,

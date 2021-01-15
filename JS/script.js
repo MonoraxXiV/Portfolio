@@ -21,6 +21,16 @@ window.onclick = function(event) {
         }
     }
 }
+
+const toggle = document.getElementById('5');
+
+toggle.addEventListener('change', (event) => {
+    if (event.target.checked) {
+        toggleDarkMode()
+    } else {
+        toggleDarkMode()
+    }
+});
 const html = document.getElementsByTagName('html')[0];
 
 function toggleDarkMode() {
@@ -45,3 +55,4 @@ localStorage.theme = 'dark'
 
 // Whenever the user explicitly chooses to respect the OS preference
 localStorage.removeItem('theme')
+

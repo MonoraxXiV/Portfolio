@@ -5,41 +5,12 @@
 
 @tailwind utilities;
 
-
-
-h1 {
-    @apply text-2xl;
-    color: #D9B08C;
-}
-h2 {
-    @apply text-xl;
-    color: #D1E8E2;
-}
-h3 {
-    @apply text-lg;
-    color: #D9B08C;
+body{
+    background-color: darkturquoise;
 }
 
 
-p {
-    color: #ffffff;
-    font-family: 'Castoro', serif;
-    font-size: larger;
-    margin-left: 5px;
-    margin-right:20px;
-}
 
-
-h4{
-    color: #D1E8E2;
-}
-
-.Text{
-    width:90%;
-    margin: auto;
-    background-color: rgba(66, 189, 186,0.5);
-    padding:10px;
-}
 
 .dropbtn {
     background-color: #2C3531;
